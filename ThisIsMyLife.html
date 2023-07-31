@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <link rel="stylesheet" href="navi.css">
+  <link rel="stylesheet" href="html-css-intro/gators.css">
+  
+</head>
+
+<body>
+  <header id = "header" >
+    <!-- ドロップダウンメニューを作成 -->
+    <nav>
+      <ul>
+      <li><a href="#">Top</a></li>
+      <li class="has-child"><a href="#">About Me</a>
+         <ul>
+             <li><a href="#"><dl><dt><img src="img/01.jpg" alt=""></dt><dd>About Me Top</dd></dl></a></li>
+             <li><a href="#"><dl><dt><img src="img/02.jpg" alt=""></dt><dd>About Me-1</dd></dl></a></li>
+             <li><a href="#"><dl><dt><img src="img/03.jpg" alt=""></dt><dd>About Me-2</dd></dl></a></li>
+             <li><a href="#"><dl><dt><img src="img/04.jpg" alt=""></dt><dd>About Me-3</dd></dl></a></li>
+             <li><a href="#"><dl><dt><img src="img/05.jpg" alt=""></dt><dd>About Me-4</dd></dl></a></li>
+          </ul>
+     </li>
+     <li class="has-child"><a href="#">My Leisure Activity</a>
+          <ul>
+             <li><a href="#"><dl><dt><img src="img/06.jpg" alt=""></dt><dd>Activity Top</dd></dl></a></li>
+             <li><a href="#"><dl><dt><img src="img/07.jpg" alt=""></dt><dd>Motorrad</dd></dl></a></li>
+             <li><a href="#"><dl><dt><img src="img/08.jpg" alt=""></dt><dd>EV Racing Kart</dd></dl></a></li>
+             <li><a href="#"><dl><dt><img src="img/08.jpg" alt=""></dt><dd>My Study</dd></dl></a></li>
+             <li><a href="#"><dl><dt><img src="img/09.jpg" alt=""></dt><dd>Gunpla</dd></dl></a></li>
+             <li><a href="#"><dl><dt><img src="img/10.jpg" alt=""></dt><dd>Programming</dd></dl></a></li>
+             <li><a href="#"><dl><dt><img src="img/11.jpg" alt=""></dt><dd>Mountain Climbing</dd></dl></a></li>
+             <li><a href="#"><dl><dt><img src="img/12.jpg" alt=""></dt><dd>My Gadget</dd></dl></a></li>
+             <li><a href="#"><dl><dt><img src="img/13.jpg" alt=""></dt><dd>Photo & Movie</dd></dl></a></li>
+     </ul>
+     </li>
+     <li><a href="#">Blog</a></li>
+   </ul>
+   </nav>
+
+    <h1>This is My Life.</h1>
+    <div id="video-area">
+      <video id="video" poster="img/movie.jpg" webkit-playsinline playsinline muted autoplay loop>
+        <!--
+        poster：動画ファイルが利用できない環境で代替表示される画像
+        webkit-playsinline：iOS 9までのSafari用インライン再生指定
+        playsinline：iOS 10以降のSafari用インライン再生指定
+        muted：音声をミュートさせる
+        autoplay：動画を自動再生させる
+        loop：動画をループさせる
+        controls：コントロールバーを表示する
+        -->
+        <source src=bikeMovieBackground.mp4 type="video/mp4">
+        <p>動画を再生できる環境ではありません。</p>
+      </video>
+      <!--/video-area--></div>
+  </header>
+
+  <script src="navi.js"></script>
+
+  <div class="green-box">
+    <input type="text" id="green-input">
+    <button id="green-button">ワニ放出！</button>
+  </div>
+  <div class="blue-box"></div>
+  <script src="html-css-intro/gators.js"></script>
+
+</body>
+
+</html>
