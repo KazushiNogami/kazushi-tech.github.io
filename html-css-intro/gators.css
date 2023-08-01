@@ -1,0 +1,12 @@
+.green-box {
+    width: 200px;
+    height: 200px;
+    background: green;
+    margin: auto;
+}
+
+.blue-box {
+    width: 300px;
+    background: blue;
+    margin: auto;
+}
